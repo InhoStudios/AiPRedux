@@ -2,7 +2,7 @@
 {
     "name": "rm_tavern",
     "id": "dd4b4649-bb2f-4249-94d9-84398acdfe5f",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
