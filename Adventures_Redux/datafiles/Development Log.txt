@@ -1,0 +1,251 @@
+Adventures In Pureia Development Log
+_____
+MM.DD.YY
+
+Started Dev: 2.24.18
+
+2.24.18
+	Player Sprites
+	"Tseint" Mob Sprites
+
+2.27.18
+	"Tseint" Mob Colour-work
+
+// Set up basic movement and level work, added platformer movement
+
+3.18.18
+	Basic Entity AI for aerial and ground enemies
+
+	Modified platformer movement, added rolling
+	Added Rolling for top-down perspective
+
+	Basic Stamina, o_player_stats
+
+3.19.18
+	Mob AI modification, changed to general enemy_state for mobs
+	Tracks player based off of line-of-sight and range
+	Enemy parent object
+
+	Aerial obstacle collision
+
+	Basic Elf Mob
+
+	Rudimentary attack sprite
+
+3.20.18
+	Basic Combat System
+	Knockback system
+	Reworked damage hitbox
+	Basic enemy combat logic
+		Elf attacks player
+
+	o_player_stats draws players HP and Stamina
+	Gets facing direction of mobs
+
+	Improved combat logic for mobs
+	
+	Mobs now die when their hp drops below 0
+	Fixed glitch for tseints wings
+	Basic framework for enemy draw events
+		Shadow for mobs
+
+EXPORT DEV 3.20.18 FOR PLAYTESTING: 15H12 PDT
+
+	Basic height-mapping
+	Temporary height collision code in Tseint Object
+
+	Basic warps between levels
+	view_platformer and view merged into one object
+
+3.21.18
+	Movement balanced (diagonals not faster than verticals)
+
+	Basic leveling and XP system
+	Item pickups and item drops (rudimentary)
+	
+	XP orb bobbing and shadow
+
+EXPORT ALPHA 0.1.0 FOR PLAYTESTING: 1H46 PDT
+
+	Slowed down bobbing animation for orb
+	Increased damage hitbox
+	Fixed depth for XP orb and aerial obstacles
+	
+	Getting input for healing and interaction
+
+	Added boundaries for testing room
+	Added basic lattice for testing
+	Player object is persistent
+	Rooms are persistent
+	Transitions between levels move the player
+
+	Shadows for items are added
+	XP Orb sprite changed
+	Health Bottle Sprite added
+	Health pot object restores health to full
+
+	Damage object no longer flashes on screen when attacking
+
+EXPORT ALPHA 0.1.1 FOR PLAYTESTING: 12H46 PDT
+
+	Platformer mechanics stowed away
+
+	Modified Elf Sprite
+
+	Warps are limited by player level
+
+	Arrow and projectiles added
+	Leveling now increases max health and max stamina
+	Tseints balanced
+
+EXPORT ALPHA 0.1.2 FOR PLAYTESTING: 17H14 PDT
+
+	o_player changed to o_object variable in enemy code
+	Mobs get aggro at each other when they are damaged by another mob
+
+EXPORT ALPHA 0.1.2B FOR PLAYTESTING (ENTITY-ENTITY AGGRESSION): 18H13 PDT
+
+	Borderless window in global game settings
+	
+	Borderless window removed
+	Screen resizeable
+	Rolls are faster (2x movespeed)
+
+3.21.18
+	Added Aeris (currency) sprite and object
+	stats variable added to step event to replace instance_exists(o_player_stats);
+	Aeri are now collectable
+
+3.22.18
+	Added interactable hitbox sprite
+	Added interactable parent object
+
+3.23.18
+	Added rudimentary interaction object
+	Created fnt_text for in game text
+
+	Interaction object supports multiple pages of text
+
+	NPC interaction parent added
+	Rudimentary and temporary NPC sprite
+	Dialogue box line spacing changed from 8 to 10
+	Can continue conversation with NPC without being near it
+
+	Conversation is reset after leaving a room and re-entering
+	Tseints no longer have aerial collisions; use o_solid
+
+EXPORT ALPHA 0.2.0 FOR PLAYTESTING: 22H42 PDT
+
+3.24.18
+	Added button interaction option
+	Option buttons work (Yes/No)
+	
+	Changed FOV
+	Fixed interactable option and textbox with new FOV
+
+3.27.18
+	Basic menu play button object and sprite
+	Added end-game and player death (rudimentary)
+
+	Changed menu room background colour to grey for visibility purposes
+
+	Added o_pause and input.mouse_left_p
+	Input object moved to menu room instead of first level
+	
+	Added basic tavern mechanics
+	
+	Dying now brings you back to the tavern
+
+4.4.18
+	Added basic hud
+	Changed ground to tile based instead of background based
+
+4.8.18
+	Removed hud
+
+4.11.18
+	Inventory system with basic inventory sprite
+	Rudimentary working inventory UI
+
+	Health pot changed from pick-up to item
+	Item parent object parented to pickup parent object
+
+	Fixed bug where health pots don't pick up as an inventory item
+
+	Other bug fixes
+	Fixed item drops from inventory
+
+4.15.18
+	View operates on game subpixels, no longer bound by object following
+
+	Experimented with lighting
+	Working on ds_list or ds_grid based inventory system
+
+	Inventory changed to draw_gui instead of draw event
+
+	Incremental steps towards ds_list based inventory system
+
+4.16.18
+	View scales with window scaling
+
+4.17.18
+	Added save_game and load_game scripts
+	Began working with ds_maps and ds_grids to save the room
+	Rooms no longer persistent, will use save and load scripts
+	Inventory changing to ds_grid instead of list
+
+	FPS is shown on screen
+
+4.18.18
+	Entity Save System
+	Game Manager instance moved to top of the list
+
+EXPORT ALPHA 0.2.1 FOR PLAYTESTING: 16H14 PDT
+
+6.25.18
+	Fixed view scaling
+
+Current Release : ALPHA 0.2.1 RELEASE
+Current Dev: DEV 4.18.18
+
+// END OF DEVELOPMENT LOG
+_____
+
+To Develop:
+	Combat and Entity Interactions [Alpha 0.2]
+		Chained attacks [Alpha 0.2]
+	Basic Spritework [Alpha 0.2+]
+		Player sprites [Alpha 0.2]
+		Shadow sprites for all entities and items [Alpha 0.2]
+		Movement sprites for current mobs [Alpha 0.3+]
+	Tavern Mechanics [Alpha 0.2+]
+	Level-based currency/purchases [Alpha 0.2+]
+
+	Potion Buffs [Alpha 0.3+]
+	Shops [Alpha 0.3+]
+
+	Questing system [Alpha 0.4]
+
+	Inventory [Alpha 0.3+]
+		Fix dropping items out of inventory [Alpha 0.3]
+		item_stack object that is just a stack of items [Alpha 0.3]
+
+	Merge platformer player and normal player into one obj [TBD]
+	Menu UI [TBD]
+	Save States [TBD]
+	Story and Lore [TBD]
+	Particle System [TBD]
+	Game-pad connectivity [TBD]
+	Fix warps between platformer and top-down levels [N/A]
+
+// END OF TO-DEV
+_____
+
+Known Issues / Bugs:
+
+Stackable Items don't stack in inventory
+
+//END OF KNOWN ISSUES
+_____
+
+Quiet Classroom 2018

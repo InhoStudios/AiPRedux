@@ -1,0 +1,3 @@
+// knockback
+event_inherited();
+
