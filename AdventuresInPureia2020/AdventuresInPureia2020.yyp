@@ -226,7 +226,7 @@
             "Key": "30a6bd26-04fe-4c95-adc7-f6909f28de5e",
             "Value": {
                 "id": "f60eb566-fead-4c72-b04f-c3faa24e8737",
-                "resourcePath": "scripts\\platformer_state\\platformer_state.yy",
+                "resourcePath": "scripts\\move_state\\move_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -258,7 +258,7 @@
             "Key": "331009fa-580d-47f7-ac35-fa084ca1eb22",
             "Value": {
                 "id": "3d751335-9954-4677-97f8-7ff0b78aaa49",
-                "resourcePath": "objects\\o_player_platformer\\o_player_platformer.yy",
+                "resourcePath": "objects\\o_player\\o_player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -599,14 +599,6 @@
             }
         },
         {
-            "Key": "6df1fbbc-bdbc-4ac2-a361-b34ff1827215",
-            "Value": {
-                "id": "9d1bafb9-87ab-4a50-84f8-c7ec17630993",
-                "resourcePath": "objects\\o_player\\o_player.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6f99102e-457e-41dc-a3cb-38cbcc48cec3",
             "Value": {
                 "id": "f4bf8221-ab5d-4cc9-a131-cfc0fc86d667",
@@ -663,14 +655,6 @@
             }
         },
         {
-            "Key": "7a960f82-f270-4a7c-9e79-1355e640ca29",
-            "Value": {
-                "id": "64dfcbd0-ecfc-4e72-b48b-5422ee037a66",
-                "resourcePath": "scripts\\move_state\\move_state.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "7baa146b-950f-4069-9cc5-1eb28df5679e",
             "Value": {
                 "id": "4bac7501-34a9-414e-93f5-79cce30568c8",
@@ -700,14 +684,6 @@
                 "id": "cf1a3cf1-f3bf-41b4-a15f-d624d374c743",
                 "resourcePath": "objects\\o_entity\\o_entity.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "80078101-d9c4-40ff-9fdc-6167cbecfdca",
-            "Value": {
-                "id": "982e295b-ed61-498b-9ca0-1b1e4129cc79",
-                "resourcePath": "scripts\\roll_state\\roll_state.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1554,10 +1530,8 @@
     "script_order": [
         "83265c8c-d812-4848-b310-25b90ae5cb31",
         "ceeb4348-8701-4476-96e6-d9a67cd8c3b7",
-        "7a960f82-f270-4a7c-9e79-1355e640ca29",
         "9c507f0f-e980-472e-9ae3-fc93b5fb342d",
         "30a6bd26-04fe-4c95-adc7-f6909f28de5e",
-        "80078101-d9c4-40ff-9fdc-6167cbecfdca",
         "39803443-21b6-4753-9cae-d48950e97ab0",
         "018474b6-e47b-4bb7-8a35-1fbf18767d3b",
         "0fa0e5f0-be2d-4657-a667-3df1cbf44650",

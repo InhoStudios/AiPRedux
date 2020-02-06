@@ -3,9 +3,6 @@ py = 0;
 if(instance_exists(o_player)){
     px = o_player.x;
     py = o_player.y;
-} else if(instance_exists(o_player_platformer)){
-    px = o_player_platformer.x;
-    py = o_player_platformer.y;
 }
 
 lenx = (px - x);
