@@ -21,4 +21,3 @@ for(var _row = 0; _row < ds_grid_height(_exp); _row++){
 }
 
 ds_grid_destroy(_exp);
-

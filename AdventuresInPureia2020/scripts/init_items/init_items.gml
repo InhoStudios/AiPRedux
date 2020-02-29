@@ -1,4 +1,8 @@
-global.total_items = ds_list_create();
+// init items to 0
+enum Items{
+	total
+};
 
-init_item(0, true, spr_health, o_health_pot);
-
+for(var i = 0; i < Items.total; i++) {
+	item[i] = 0;
+}

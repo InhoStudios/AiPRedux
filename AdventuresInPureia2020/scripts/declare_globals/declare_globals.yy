@@ -1,8 +1,8 @@
 {
-    "id": "b8c0edfa-295d-4321-8caf-18ac2ce5e195",
+    "id": "4c1af99b-234f-435c-9608-6c0d7cc4327b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "manage_inventory",
+    "name": "declare_globals",
     "IsCompatibility": false,
     "IsDnD": false
 }

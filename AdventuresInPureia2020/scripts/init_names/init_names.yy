@@ -1,8 +1,8 @@
 {
-    "id": "b373e65a-16e1-4c04-8220-25621e013aec",
+    "id": "a6327f21-35fb-4ddc-bda5-aef061ba247b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "click_slot",
+    "name": "init_names",
     "IsCompatibility": false,
     "IsDnD": false
 }
