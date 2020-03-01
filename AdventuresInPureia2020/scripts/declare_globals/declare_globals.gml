@@ -3,3 +3,4 @@ globalvar itemSpr;
 globalvar itemObj;
 globalvar itemStackable;
 globalvar itemName;
+globalvar slot;

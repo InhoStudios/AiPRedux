@@ -1,5 +1,4 @@
-if(place_meeting(x,y,o_player)){
-    add_to_inventory(ID, value);
+if(place_meeting(x,y,o_player)){ 
     instance_destroy();
 }
 
