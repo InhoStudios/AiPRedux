@@ -1,0 +1,1 @@
+followObj=objPlayer

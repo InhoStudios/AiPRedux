@@ -1,0 +1,13 @@
+THINGS TO ADD:
+seperate walk and run speeds.
+current movements are all running speeds.
+...etc
+
+
+
+
+BUGS TO FIX:
+- happens only 5% of times when jabbing player collision onto slopes:
+	- at states on ground onObject is false when it should be true, game crashes.
+	
+	!should be able to fix this if I create a storing variable in player and check if a new onObject is true!
