@@ -1,6 +1,5 @@
 globalvar item;
-globalvar itemSpr;
-globalvar itemObj;
-globalvar itemStackable;
-globalvar itemName;
-globalvar slot;
+globalvar item_spr;
+globalvar item_obj;
+globalvar item_stackable;
+globalvar item_name;

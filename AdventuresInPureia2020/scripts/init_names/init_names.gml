@@ -1,5 +1,3 @@
 // init names
 // item[index] = "name";
-enum Names {
-	void
-};
+item_name[Items.total] = "void";

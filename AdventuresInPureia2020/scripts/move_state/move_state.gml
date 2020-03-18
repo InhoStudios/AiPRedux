@@ -11,7 +11,7 @@ if(vsp <= 21){
     vsp += grav;
 }
 
-if(input.key_jump && jumps > 0){
+if(input.key_jump && jumps > 0 && vsp >= 0){
     vsp = -movespeed * 5;
     jumps -= 1;
     image_index = 0;
