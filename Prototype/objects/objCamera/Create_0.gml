@@ -1,1 +1,1 @@
-followObj=objPlayer
+scrCameraCreate();

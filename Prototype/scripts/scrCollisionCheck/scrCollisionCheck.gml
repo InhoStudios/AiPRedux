@@ -21,7 +21,7 @@ while(script_execute(scrCheckColAll,0,clsSolid)=1 and col>0)
     if instance_exists(COT) and col=2//is there a collision with a clsSolidTop,
     //player doesnt climb and is that the first cycle of loop? 
     {
-        bbox_bottomPrev=bbox_bottom-vs//getting the y coordinate of previous step�s bbox bottom
+        bbox_bottomPrev=bbox_bottom-vs//getting the y coordinate of previous step's bbox bottom
                     
         colObjYEnd=COT.bbox_top //where the first pixel at point(self.x,bottom of COT) 
         ySave=colObjYEnd

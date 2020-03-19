@@ -4,7 +4,7 @@ if keyboard_check_pressed(keyJump)
     //start jump
     if state=ON_GROUND and JUMPING_ok=1
     {
-        if script_execute(scrCheckColUp,1,clsSolidAll)==0
+        if (script_execute(scrCheckColUp,1,clsSolidAll)==0||graceTimer >0)
         {  
             
 
@@ -14,7 +14,6 @@ if keyboard_check_pressed(keyJump)
             onMove=0
             onSolidTop=0
             objectOn=noone
-
             exit
         }
     }
@@ -32,7 +31,7 @@ if keyboard_check_pressed(keyJump)
 
             doubleJump=1
 			//IMPLIMENT DOUBLE JUMP TIMES HERE::::
-            jumpTimes=3
+            //jumpTimes=3
             state=JUMPING
         }   
     }

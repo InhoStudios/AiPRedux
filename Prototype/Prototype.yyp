@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "1de0aeec-6e7f-4e1d-871c-0336665d89df",
+            "Value": {
+                "id": "4c3c1a1d-a738-41db-a348-42074fa5a9e3",
+                "resourcePath": "scripts\\scrChangeWindowSize\\scrChangeWindowSize.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1e7682ba-e414-4c27-a956-021eb67da29d",
             "Value": {
                 "id": "63072a07-b9d0-4cb1-80b7-f1b3cb7c91e2",
@@ -263,6 +271,14 @@
             }
         },
         {
+            "Key": "2cb06802-2c79-44b3-abbd-d3f07ea0a5dd",
+            "Value": {
+                "id": "0ca4bab5-d59b-4ad7-8bef-6788146857d5",
+                "resourcePath": "scripts\\scrCameraCreate\\scrCameraCreate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2cebec6e-d601-4821-9ea0-c3b411e651a2",
             "Value": {
                 "id": "8ad7d9bf-f279-4294-88d5-d9c17af0589d",
@@ -332,6 +348,14 @@
                 "id": "c8aa2b91-1955-4b7b-ad31-8915aaca008d",
                 "resourcePath": "views\\3d8f1274-8f47-4066-9411-bb29cf61600a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3f0b8ba3-4c4c-416a-971f-81d5945e8a02",
+            "Value": {
+                "id": "935d004d-6350-4dde-ad0a-ba54421da948",
+                "resourcePath": "scripts\\scrAspectRatioCreate\\scrAspectRatioCreate.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -895,6 +919,14 @@
             }
         },
         {
+            "Key": "c6815e87-225e-4802-ad4f-2ac354d40811",
+            "Value": {
+                "id": "3427b1ee-2d45-4427-a0fe-ad664aec9f4b",
+                "resourcePath": "scripts\\scrCameraFollow\\scrCameraFollow.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c6c2d8e5-4aca-4f43-b470-d1cc9b82d43c",
             "Value": {
                 "id": "182d68cb-20b3-4f83-a04a-ecae3e2d3279",
@@ -980,6 +1012,14 @@
                 "id": "aba4449f-4b27-4009-8523-856316b0dd85",
                 "resourcePath": "objects\\oTest\\oTest.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "db8c924c-da04-4aed-8a4f-3d2d354aa3ab",
+            "Value": {
+                "id": "ce6d14c8-3dff-470c-b696-552c5e5dfdad",
+                "resourcePath": "views\\db8c924c-da04-4aed-8a4f-3d2d354aa3ab.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1128,6 +1168,8 @@
         }
     ],
     "script_order": [
+        "2cb06802-2c79-44b3-abbd-d3f07ea0a5dd",
+        "c6815e87-225e-4802-ad4f-2ac354d40811",
         "0f86731d-7fb6-46bb-b18d-7664a0faaf16",
         "1e7682ba-e414-4c27-a956-021eb67da29d",
         "c96bc376-cb12-49d7-939d-54ce42b65ad5",
@@ -1152,6 +1194,8 @@
         "6bbcd178-f633-4727-a83b-7e5f6f4f7112",
         "41a5d324-4b4e-4e89-b1db-87ab790d162b",
         "2306666e-9b8a-43a4-85a2-dd92789d71e3",
+        "3f0b8ba3-4c4c-416a-971f-81d5945e8a02",
+        "1de0aeec-6e7f-4e1d-871c-0336665d89df",
         "adfc434c-c924-4cce-a7b7-30fe78a39ec6",
         "69caafeb-17d4-4e1a-adae-deb030f115d0",
         "41e00c81-2c31-40cb-89c6-74ca25c1ee19",

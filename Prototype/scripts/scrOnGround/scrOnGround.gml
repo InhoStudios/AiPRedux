@@ -7,14 +7,15 @@ if state=ON_GROUND
     doubleJump=0
     
     grav=0
-
-    if script_execute(scrCheckColDown,3,clsSolid)=1 || script_execute(scrCheckColDown,3,clsSolidTop)=1 && instance_exists(objectDown)
-       fric=(objectDown.fricGive-0.3)
-    else
-    {
-        fric=0.8
-    }
-    
+	
+	if (instance_exists(objectDown)){
+	    if script_execute(scrCheckColDown,3,clsSolid)=1 || script_execute(scrCheckColDown,3,clsSolidTop)=1 && instance_exists(objectDown)
+	       fric=(objectDown.fricGive-0.3)
+	    else
+	    {
+	        fric=0.8
+	    }
+	}
     if instance_exists(objectDown)
     {
         if objectDown.moving=0

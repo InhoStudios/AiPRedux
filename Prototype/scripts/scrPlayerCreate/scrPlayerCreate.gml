@@ -2,7 +2,7 @@
 //--------------------------------------------------------------------------------------------
 keyRunR=ord("D")
 keyRunL=ord("A")
-keyJump=vk_space
+keyJump=ord("W")
 keyDown=ord("S")
 //--------------------------------------------------------------------------------------------
 RIGHT=0
@@ -18,7 +18,7 @@ facePrev=face      //if player faces RIGHT or LEFT
 
 //speed
 //--------------------------------------------------------------------------------------------
-mass=0.3//CHANGEABLE                                                                                        
+mass=0.4//CHANGEABLE                                                                                        
 
 hs=0          //horizontal speed
 vs=0            //vertical speed
@@ -31,16 +31,16 @@ vsSave=0
 hsOwn=0            //running horizontal speed
 
 hsAdd=0            //horizontal speed to add
-preobjectOn=noone	//previous object the player was on
 objectOn=noone         //object on which player is (only moving)
+preobjectOn=objectOn	//previous object the player was on
 
 hsMax=10        //max of hs                
 vsMax=10        //max of vs
 
 //max speeds for states
-hsMax_ON_GROUND=4
-hsMax_AIR=5
-vsMax_AIR=7
+hsMax_ON_GROUND=3
+hsMax_AIR=4
+vsMax_AIR=6
 
 
 
@@ -67,16 +67,18 @@ statePrev=ON_GROUND
 statePrevPrev=ON_GROUND
 
 //special conditions
-jumping=0
-crouching=0
-running=0
-doubleJump=0
-onSolidTop=0            //whether is on a solid who�s only from top solid
-onMove=0                //whether is on moving objectis no solid!
-makeOnGround=0          //whether state will become ON_GROUND, although down 
+jumping=0;
+crouching=0;
+
+running=0;
+doubleJump=0;
+onSolidTop=0;            //whether is on a solid who�s only from top solid
+onMove=0;                //whether is on moving objectis no solid!
+makeOnGround=0;          //whether state will become ON_GROUND, although down 
 
 
 //ENALBE/DISALBE ABILITIES
+
 RUNNING_ok=1            ////CHANGEABLE whether player is able to run
 JUMPING_ok=1            ////CHANGEABLE whether player is able to jump
 DOUBLEJUMP_ok=1         ////CHANGEABLE whether player is able to do a double jump
@@ -86,12 +88,13 @@ CROUCH_ok=1            ////CHANGEABLE whether player is able to crouch
 
 
 //running
-runPower=2.5//CHANGEABLE 
+runPower=2.7//CHANGEABLE 
 
 //jumping
-jumpPower=3//CHANGEABLE 
-jumpTimes=1         //max of 3, THIS IS NOT DOUBLE JUMP! it means how much frames the start impulse of jump will be given
+jumpPower=4.5//CHANGEABLE 
+jumpTimes=1       //just never change this value thanks.
 doubleJumpTimes = 2;	//times player can double jump. not implimented yet.
+
 
 
 //max pixels player can slope walk
