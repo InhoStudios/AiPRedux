@@ -879,6 +879,14 @@
             }
         },
         {
+            "Key": "b81fcdef-2678-4a10-b5de-86114756eddd",
+            "Value": {
+                "id": "6908181b-3cc9-42de-aa60-8c76b0545c6c",
+                "resourcePath": "scripts\\scrCameraZoom\\scrCameraZoom.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bf4053e6-c377-4a8e-9148-91752b91de08",
             "Value": {
                 "id": "9f2654b8-5eb2-4f09-90bf-4f5f083237d8",
@@ -1170,6 +1178,7 @@
     "script_order": [
         "2cb06802-2c79-44b3-abbd-d3f07ea0a5dd",
         "c6815e87-225e-4802-ad4f-2ac354d40811",
+        "b81fcdef-2678-4a10-b5de-86114756eddd",
         "0f86731d-7fb6-46bb-b18d-7664a0faaf16",
         "1e7682ba-e414-4c27-a956-021eb67da29d",
         "c96bc376-cb12-49d7-939d-54ce42b65ad5",

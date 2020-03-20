@@ -107,7 +107,7 @@ if state=ON_GROUND
             if face=RIGHT
                mySprite = spriteCrouchGoR
             else
-                mySprite = spriteCrouchGoL          
+                mySprite = spriteCrouchGoL
         }
         else
         {

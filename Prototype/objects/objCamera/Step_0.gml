@@ -1,4 +1,5 @@
-scrCameraFollow(followObj);
+scrCameraFollow();
+scrCameraZoom();
 
 
 /*if instance_exists(objPlayerDead)

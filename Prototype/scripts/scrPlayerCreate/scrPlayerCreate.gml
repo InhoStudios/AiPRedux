@@ -38,9 +38,11 @@ hsMax=10        //max of hs
 vsMax=10        //max of vs
 
 //max speeds for states
-hsMax_ON_GROUND=3
-hsMax_AIR=4
-vsMax_AIR=6
+hsMax_ON_GROUND=4
+hsMax_AIR=5
+vsMax_AIR=5.5
+hsMax_CROUCHING = 2;
+vsMax_CROUCHING = 2;
 
 
 
@@ -91,8 +93,8 @@ CROUCH_ok=1            ////CHANGEABLE whether player is able to crouch
 runPower=2.7//CHANGEABLE 
 
 //jumping
-jumpPower=4.5//CHANGEABLE 
-jumpTimes=1       //just never change this value thanks.
+jumpPower=5//CHANGEABLE 
+jumpTimes=3       //just never change this value thanks.
 doubleJumpTimes = 2;	//times player can double jump. not implimented yet.
 
 
