@@ -1,0 +1,1 @@
+itemName[Items.TOTAL] = "void";
