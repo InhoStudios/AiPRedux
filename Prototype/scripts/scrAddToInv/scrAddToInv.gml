@@ -11,7 +11,8 @@ for(var i = 0; i < inventory.totalSlots; i++ ){
 			
 			while(value > 0 && ds_grid_get(inventory.inv, Inventory.SLOT_COUNT, i) < maxItemStack) {
 				scrAddList(itemID);
-				ds_grid_set(inventory.inv, Inventory.SLOT_COUNT, i, ds_grid_get(inventory.inv, Inventory.SLOT_COUNT, i) + 1);
+				var increment = ds_grid_get(inventory.inv, Inventory.SLOT_COUNT, i) + 1;
+				ds_grid_set(inventory.inv, Inventory.SLOT_COUNT, i, increment);
 				value--;
 			}
 			
@@ -32,7 +33,8 @@ for(var i = 0; i < inventory.totalSlots; i++ ){
 				// loop through and add values
 				while(value > 0 && ds_grid_get(inventory.inv, Inventory.SLOT_COUNT, i) < maxItemStack) {
 					scrAddList(itemID);
-					ds_grid_set(inventory.inv, Inventory.SLOT_COUNT, i, ds_grid_get(inventory.inv, Inventory.SLOT_COUNT, i) + 1);
+				var increment = ds_grid_get(inventory.inv, Inventory.SLOT_COUNT, i) + 1;
+					ds_grid_set(inventory.inv, Inventory.SLOT_COUNT, i, increment);
 					value--;
 				}
 				break;
