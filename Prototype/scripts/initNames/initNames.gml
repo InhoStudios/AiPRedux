@@ -1,1 +1,2 @@
-itemName[Items.TOTAL] = "void";
+itemName[Items.GENERIC] = "generic";
+itemName[Items.TOTAL] = "empty";

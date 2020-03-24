@@ -5,11 +5,17 @@ globalvar itemStackable;
 globalvar itemName;
 
 enum Items {
+	GENERIC,
 	TOTAL
 };
 
+
+// set values of all items to 0
 for(var i = 0; i < Items.TOTAL; i++) {
 	item[i] = 0;
 }
 
 initNames();
+initSprites();
+initObjects();
+initStackable();
