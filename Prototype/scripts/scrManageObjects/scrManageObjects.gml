@@ -17,7 +17,9 @@ for(var i = 0; i < totalSlots; i++) {
 				scrClickSlot(i, j);
 			}
 		}
-		// draw name and desc>>
+		for(var j = 0; j < Items.TOTAL; j++) {
+			scrDrawInvName(i, j);
+		}
 		
 		// debug
 		/*******************************/
@@ -37,12 +39,13 @@ for(var i = 0; i < totalSlots; i++) {
 			} else if(
 					(ds_grid_get(inv, Inventory.SLOT_NAME, i) == itemName[Items.TOTAL] && ds_grid_get(inv, Inventory.SLOT_ID, i) == -1) ||
 					(i != slotTaken && ds_grid_get(inv, Inventory.SLOT_NAME, i) == itemName[it] && ds_grid_get(inv, Inventory.SLOT_ID, i) == it)
-				) {
-					if(scrMouseOver(inv_X[i], inv_Y, cellSize, cellSize)) {
-						var tempSpr = spr;
-						// transfer item
-					}
+				) 
+			{
+				if(scrMouseOver(inv_X[i], inv_Y, cellSize, cellSize)) {
+					var tempSpr = spr;
+					// transfer item
 				}
+			}
 		}
 	}
 }

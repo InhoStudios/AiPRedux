@@ -14,13 +14,25 @@ if(true) { // other statements (like room check, pause, etc).
 		
 		var xx = startX + (i * cellSize);
 		
-		draw_rectangle(xx,startY,xx + cellSize, startY + cellSize, true);
 		draw_rectangle(xx,startY,xx + cellSize, startY + cellSize, false);
+		
+		if(slotHover - 1 == currentSlot) {
+			draw_set_color(c_white);
+			draw_set_alpha(0.5);
+			draw_rectangle(xx,startY,xx + cellSize, startY + cellSize, false);
+			draw_set_color(c_gray);
+			draw_set_alpha(0.7);
+		}
+		
+		draw_rectangle(xx,startY,xx + cellSize, startY + cellSize, true);
 		
 		inv_X[currentSlot] = xx;
 		inv_Y = startY;
 		
 		scrManageObjects(cellSize);
+		
+		draw_set_color(c_gray);
+		draw_set_alpha(0.7);
 	}
 	
 	// debug

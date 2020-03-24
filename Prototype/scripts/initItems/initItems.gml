@@ -3,6 +3,9 @@ globalvar itemSpr;
 globalvar itemObj;
 globalvar itemStackable;
 globalvar itemName;
+globalvar maxItemStack;
+
+maxItemStack = 16;
 
 enum Items {
 	GENERIC,
