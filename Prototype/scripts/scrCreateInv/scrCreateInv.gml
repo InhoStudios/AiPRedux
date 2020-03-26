@@ -34,7 +34,7 @@ for(var i = 0; i < totalSlots; i++) {
 	show_debug_message("Slot " + string(i) + ": " + count);
 	
 	inv_X[i] = 0;
-	inv_y = 0;
+	inv_Y = 0;
 }
 
 // debug
