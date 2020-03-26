@@ -56,3 +56,5 @@ for(var i = 0; i < inventory.totalSlots; i++ ){
 		}
 	}
 }
+
+if(value <= 0) instance_destroy();
