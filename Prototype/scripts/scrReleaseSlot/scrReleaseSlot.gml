@@ -5,7 +5,7 @@ var value = ds_grid_get(inv, Inventory.SLOT_COUNT, slotTaken);
 
 if(tempSpr == itemSpr[itemID]) {
 	if(itemStackable[itemID]) {
-		for(var val = 0; val < ds_grid_get(inv, Inventory.SLOT_COUNT, slot); val++) {
+		for(var val = 0; val < value; val++) {
 			instance_create_layer(objPlayer.x + irandom_range(-16, 16), objPlayer.y, layer, itemObj[itemID]);
 			item[itemID]--;
 		}

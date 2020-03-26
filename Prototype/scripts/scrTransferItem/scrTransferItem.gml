@@ -11,7 +11,7 @@ if(tempSpr == itemSpr[itemID]) {
 		// move item to empty slot
 		ds_grid_set(inv, Inventory.SLOT_ID, slot, itemID);
 		ds_grid_set(inv, Inventory.SLOT_NAME, slot, itemName[itemID]);
-		ds_grid_set(inv, Inventory.SLOT_COUNT, slot, ds_grid_get(inv, Inventory.SLOT_COUNT, slot));
+		ds_grid_set(inv, Inventory.SLOT_COUNT, slot, ds_grid_get(inv, Inventory.SLOT_COUNT, slotTaken));
 		
 		// set original slot to empty
 		ds_grid_set(inv, Inventory.SLOT_ID, slotTaken, -1);
@@ -37,6 +37,7 @@ if(tempSpr == itemSpr[itemID]) {
 		if(ds_grid_get(inv, Inventory.SLOT_COUNT, slotTaken) <= 0) {
 			ds_grid_set(inv, Inventory.SLOT_ID, slotTaken, -1);
 			ds_grid_set(inv, Inventory.SLOT_NAME, slotTaken, itemName[Items.TOTAL]);
+			ds_grid_set(inv, Inventory.SLOT_COUNT, slotTaken, 0);
 		}
 		
 	}
