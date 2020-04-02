@@ -54,3 +54,4 @@ for(var i = 0; i < totalSlots; i++) {
 if(mouse_check_button(mb_left)) {
 	draw_sprite(spr, 0, mouse_x - 3, mouse_y - 3);
 }
+if(mouse_check_button_released(mb_left)) slotTaken = -1;

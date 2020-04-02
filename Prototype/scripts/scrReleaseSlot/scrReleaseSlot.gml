@@ -4,13 +4,13 @@ var itemID = argument[1];
 var value = ds_grid_get(inv, Inventory.SLOT_COUNT, slotTaken);
 
 if(tempSpr == itemSpr[itemID]) {
-	if(itemStackable[itemID]) {
+	if(itemStackable[itemID] && ds_grid_get(inv, Inventory.SLOT_COUNT, slot) > 1) {
 		for(var val = 0; val < value; val++) {
-			instance_create_layer(objPlayer.x + irandom_range(-16, 16), objPlayer.y, layer, itemObj[itemID]);
+			instance_create_layer(mouse_x + irandom_range(-16, 16), mouse_y, layer, itemObj[itemID]);
 			item[itemID]--;
 		}
 	} else {
-		instance_create_layer(objPlayer.x, objPlayer.y, layer, itemObj[itemID]);
+		instance_create_layer(mouse_x, mouse_y, layer, itemObj[itemID]);
 		item[itemID]--;
 	}
 	
