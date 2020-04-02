@@ -2,7 +2,7 @@ var cellSize = argument[0];
 
 /**debug**/
 
-slotHover = 0;
+slotHover = -1;
 
 /*********/
 
