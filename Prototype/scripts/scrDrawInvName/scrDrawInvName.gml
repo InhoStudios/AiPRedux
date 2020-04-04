@@ -14,5 +14,5 @@ draw_set_color(c_black);
 draw_set_alpha(1);
 
 if(itemID == ds_grid_get(inv, Inventory.SLOT_ID, slot)) {
-	draw_text(mouse_x + 8, mouse_y + 8, dispName);
+	draw_text(scrGetMouseXGUI() + 8, scrGetMouseYGUI() + 8, dispName);
 }

@@ -711,6 +711,14 @@
             }
         },
         {
+            "Key": "84cdd34f-e728-4b30-9b67-41f7c4374c5b",
+            "Value": {
+                "id": "c0559633-520d-4518-91ff-0d1e246182c4",
+                "resourcePath": "scripts\\scrGetMouseYGUI\\scrGetMouseYGUI.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8513419b-e41e-4372-9900-6852240208e3",
             "Value": {
                 "id": "c1444db3-4d9a-4443-8c1c-8c83eff3a617",
@@ -1059,6 +1067,14 @@
             "Value": {
                 "id": "3427b1ee-2d45-4427-a0fe-ad664aec9f4b",
                 "resourcePath": "scripts\\scrCameraFollow\\scrCameraFollow.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c68c9925-a114-4745-8075-5571cacb94de",
+            "Value": {
+                "id": "bdb70ebc-197d-4b2e-a893-987582082adc",
+                "resourcePath": "scripts\\scrGetMouseXGUI\\scrGetMouseXGUI.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1466,6 +1482,8 @@
         "dac5994c-11d9-4983-b75e-1dca99c184bc",
         "385f7197-7e99-4b67-8bcc-12a96828809a",
         "b180f39d-f662-459c-a271-7d6c9e1b269f",
+        "c68c9925-a114-4745-8075-5571cacb94de",
+        "84cdd34f-e728-4b30-9b67-41f7c4374c5b",
         "21e1809d-4079-439d-bcc0-e6b74a699c01",
         "5ee466c4-d92d-4bb9-9c6a-ca1c7f4a5049",
         "16fc0956-bd63-410c-ba93-7322ea4184b8",

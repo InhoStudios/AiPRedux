@@ -11,7 +11,8 @@ for(var i = 0; i < totalSlots; i++) {
 		scrDrawInvSprite(i, it);
 	}
 	// check hovering
-	if(scrMouseOver(inv_X[i], inv_Y, cellSize, cellSize)) {
+	var startY = camera_get_view_y(view_camera[0]);
+	if(scrMouseOver(inv_X_relative[i], startY, cellSize, cellSize)) {
 		if(mouse_check_button_pressed(mb_left)) {
 			for(var j = 0; j < Items.TOTAL; j++) {
 				scrClickSlot(i, j);
@@ -42,7 +43,7 @@ for(var i = 0; i < totalSlots; i++) {
 					(i != slotTaken && ds_grid_get(inv, Inventory.SLOT_NAME, i) == itemName[it] && ds_grid_get(inv, Inventory.SLOT_ID, i) == it)
 				) 
 			{
-				if(scrMouseOver(inv_X[i], inv_Y, cellSize, cellSize)) {
+				if(scrMouseOver(inv_X_relative[i], startY, cellSize, cellSize)) {
 					var tempSpr = spr;
 					scrTransferItem(i, it, tempSpr);
 				}
@@ -52,6 +53,7 @@ for(var i = 0; i < totalSlots; i++) {
 }
 
 if(mouse_check_button(mb_left)) {
-	draw_sprite(spr, 0, mouse_x - 3, mouse_y - 3);
+	var scale = cellSize / sprite_width;
+	draw_sprite_ext(spr, 0, scrGetMouseXGUI(), scrGetMouseYGUI(), scale, scale, 0, c_white, 1);
 }
 if(mouse_check_button_released(mb_left)) slotTaken = -1;

@@ -1,7 +1,12 @@
 totalSlots = 3;
 currentSlot = 0;
-cellSize = 32;
 slotTaken = 0;
+
+rCellSize = 32;
+cellSize = rCellSize;
+
+minClamp = 16;
+maxClamp = 32;
 
 spr = NO_SPRITE;
 
@@ -34,6 +39,7 @@ for(var i = 0; i < totalSlots; i++) {
 	show_debug_message("Slot " + string(i) + ": " + count);
 	
 	inv_X[i] = 0;
+	inv_X_relative[i] = 0;
 	inv_Y = 0;
 }
 
