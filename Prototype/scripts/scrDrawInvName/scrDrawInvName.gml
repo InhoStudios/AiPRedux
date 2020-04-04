@@ -5,7 +5,7 @@ var dispName = "";
 switch(itemID) {
 	
 	case Items.GENERIC:
-		dispName = "Generic\n[Insert description here]";
+		dispName = "Generic\n[Insert description here]\n" + string(ds_grid_get(inv, Inventory.SLOT_COUNT, slot));
 		break;
 
 }

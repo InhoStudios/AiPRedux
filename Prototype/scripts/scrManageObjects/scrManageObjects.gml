@@ -37,7 +37,7 @@ for(var i = 0; i < totalSlots; i++) {
 		for(var it = 0; it < Items.TOTAL; it++) { // it = item id
 			if(!scrMouseOver(startX, startY, width, height)) {
 				var tempSpr = spr;
-				scrReleaseSlot(i, it);
+				scrReleaseSlot(it);
 			} else if(
 					(ds_grid_get(inv, Inventory.SLOT_NAME, i) == itemName[Items.TOTAL] && ds_grid_get(inv, Inventory.SLOT_ID, i) == -1) ||
 					(i != slotTaken && ds_grid_get(inv, Inventory.SLOT_NAME, i) == itemName[it] && ds_grid_get(inv, Inventory.SLOT_ID, i) == it)
@@ -56,4 +56,4 @@ if(mouse_check_button(mb_left)) {
 	var scale = cellSize / sprite_width;
 	draw_sprite_ext(spr, 0, scrGetMouseXGUI(), scrGetMouseYGUI(), scale, scale, 0, c_white, 1);
 }
-if(mouse_check_button_released(mb_left)) slotTaken = -1;
+if(!mouse_check_button(mb_left)) slotTaken = -1;

@@ -1,6 +1,8 @@
+
+// instantiate variables
 totalSlots = 3;
 currentSlot = 0;
-slotTaken = 0;
+slotTaken = -1;
 
 rCellSize = 32;
 cellSize = rCellSize;
@@ -45,3 +47,6 @@ for(var i = 0; i < totalSlots; i++) {
 
 // debug
 slotHover = 0;
+
+// set inventory object to have no sprite
+sprite_index = NO_SPRITE;

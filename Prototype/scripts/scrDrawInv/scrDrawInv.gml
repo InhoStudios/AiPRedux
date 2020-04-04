@@ -52,11 +52,11 @@ if(true) { // other statements (like room check, pause, etc).
 	}
 	
 	// debug
-	draw_text(xCorner, yCorner + cellSize, "mouse_x: " + string(mouse_x));
-	draw_text(xCorner, yCorner + 1.5 * cellSize, "mouse_y: " + string(mouse_y));
-	draw_text(xCorner, yCorner + 2 * cellSize, "gui_x: " + string(scrGetMouseXGUI()));
-	draw_text(xCorner, yCorner + 2.5 * cellSize, "gui_y: " + string(scrGetMouseYGUI()));
-	draw_text(xCorner, yCorner + 3 * cellSize, "wW: " + string(window_get_width()));
+	draw_text(xCorner, yCorner + cellSize, "slotTaken: " + string(slotTaken));
+	draw_text(xCorner, yCorner + 1.5 * cellSize, "slotHover: " + string(slotHover));
+	draw_text(xCorner, yCorner + 2 * cellSize, "slot1: " + string(ds_grid_get(inv, Inventory.SLOT_COUNT, 0)));
+	draw_text(xCorner, yCorner + 2.5 * cellSize, "slot2: " + string(ds_grid_get(inv, Inventory.SLOT_COUNT, 1)));
+	draw_text(xCorner, yCorner + 3 * cellSize, "slot3: " + string(ds_grid_get(inv, Inventory.SLOT_COUNT, 2)));
 	draw_text(xCorner, yCorner + 3.5 * cellSize, "wH: " + string(window_get_height()));
 	
 	draw_circle(scrGetMouseXGUI(), scrGetMouseYGUI(), 3, false);
