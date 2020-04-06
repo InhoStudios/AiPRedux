@@ -1,1 +1,3 @@
 scrAspectRatioCreate();
+
+scrSerializationCreate();

@@ -1,3 +1,5 @@
+// save
+inventoryKey = "inventory_save";
 
 // instantiate variables
 totalSlots = 3;
@@ -27,7 +29,7 @@ slot [   ] [   ] [   ]
 slot [   ] [   ] [   ]
 
 */
-
+	
 inv = ds_grid_create(Inventory.COLUMNS, totalSlots);
 
 // set inventory slots to 0
