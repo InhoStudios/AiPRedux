@@ -2,7 +2,7 @@
 if keyboard_check_pressed(keyJump)
 {
     //start jump
-    if state=ON_GROUND and JUMPING_ok=1
+    if (state=ON_GROUND || airTime < airTime_MAX) and JUMPING_ok=1
     {
         if (script_execute(scrCheckColUp,1,clsSolidAll)==0||graceTimer >0)
         {  
@@ -54,4 +54,10 @@ if keyboard_check(keyJump) and state=JUMPING and !instance_exists(objectUp) and 
 if keyboard_check_released(keyJump) and JUMPING_ok=1
 {
     jumpTimes=3
+}
+
+if(state = ON_GROUND) {
+	airTime = 0;
+} else {
+	airTime ++;
 }

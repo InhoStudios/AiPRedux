@@ -35,7 +35,7 @@ objectOn=noone         //object on which player is (only moving)
 preobjectOn=objectOn	//previous object the player was on
 
 hsMax=10        //max of hs                
-vsMax=10        //max of vs
+vsMax=15        //max of vs
 
 //max speeds for states
 hsMax_ON_GROUND=4
@@ -44,7 +44,9 @@ vsMax_AIR=5.5
 hsMax_CROUCHING = 2;
 vsMax_CROUCHING = 2;
 
-
+// coyote time
+airTime = 0;
+airTime_MAX = 3;
 
 mDirection=0    //direction
 fric=0          //friction
