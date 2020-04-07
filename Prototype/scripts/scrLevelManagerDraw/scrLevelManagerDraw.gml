@@ -1,7 +1,7 @@
 draw_set_alpha(transitionAlpha);
 
 if(doTransition) {
-	if(transitionAlpha < 1) {
+	if(transitionAlpha < 1.25) {
 		transitionAlpha += delta;
 	} else {
 		scrDoTransition(toRoom, toX, toY);
