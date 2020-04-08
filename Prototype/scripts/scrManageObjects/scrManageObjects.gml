@@ -34,7 +34,7 @@ if(inv != undefined) {
 			var startX = camera_get_view_x(view_camera[0]);
 			var startY = camera_get_view_y(view_camera[0]);
 		
-			var width = cellSize * 3;
+			var width = cellSize * totalSlots;
 			var height = cellSize;
 		
 			for(var it = 0; it < Items.TOTAL; it++) { // it = item id

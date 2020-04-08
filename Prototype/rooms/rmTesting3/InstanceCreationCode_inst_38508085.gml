@@ -1,3 +1,3 @@
 toRoom = rmTesting2;
-toX = 430;
-toY = 495;
+toX = 206;
+toY = 588;
