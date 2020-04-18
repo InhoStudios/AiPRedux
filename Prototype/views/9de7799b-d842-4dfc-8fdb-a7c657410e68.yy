@@ -12,7 +12,9 @@
         "b38017d1-da4a-4688-8c5c-f3c821cd0e52",
         "1d61b3a5-8cb8-43b8-af64-9bcddbe125a9",
         "94b0113c-d46b-429c-82e8-0c2c7355cf41",
-        "5aca0f2c-4cc4-4610-81c0-38f364b93b0a"
+        "5aca0f2c-4cc4-4610-81c0-38f364b93b0a",
+        "38a85ded-4918-442b-bccf-84381ceafa09",
+        "a5ac649a-1bc8-4559-b4ed-8cea67ddb0b6"
     ],
     "filterType": "GMScript",
     "folderName": "serialization",

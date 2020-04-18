@@ -1,0 +1,1 @@
+global.roomGravity=0

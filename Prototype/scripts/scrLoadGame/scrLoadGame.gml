@@ -5,4 +5,6 @@ if(file_exists(SAVE_FILE)) {
 	scrInventoryLoad();
 	
 	scrEntityLoad();
+	
+	scrLoadPos();
 }

@@ -1,3 +1,7 @@
+if(!instance_exists(objPlayer) && instance_exists(objPlayerDead)){
+	target = objPlayerDead;
+}
+
 x+=(target.x - x)*panSpd;
 y+=(target.y - y)*panSpd;
 camera_set_view_pos(cam,

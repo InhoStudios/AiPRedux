@@ -135,19 +135,19 @@
             }
         },
         {
-            "Key": "118455a4-1aa9-4a1f-a30e-faa854f53c56",
-            "Value": {
-                "id": "451a704b-e182-48c2-8847-ca4831ae1d8f",
-                "resourcePath": "rooms\\rmTesting3\\rmTesting3.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "13b8129c-0a9b-477c-bc52-7758b095fd9d",
             "Value": {
                 "id": "a2a9949c-d258-41b4-961b-84b40128ba65",
                 "resourcePath": "sprites\\NO_SPRITE\\NO_SPRITE.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "146eb0b3-16f2-49a7-bda2-5d0b884597ed",
+            "Value": {
+                "id": "29367d59-de39-41f8-81b9-73c97e571c51",
+                "resourcePath": "rooms\\rmCityOfAnarchy2\\rmCityOfAnarchy2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -439,10 +439,26 @@
             }
         },
         {
+            "Key": "369d3f67-3363-47bc-b849-621befdc9eab",
+            "Value": {
+                "id": "27577f9f-3045-494a-bb5a-55f03abec87e",
+                "resourcePath": "rooms\\rmCityOfAnarchyEnd\\rmCityOfAnarchyEnd.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "385f7197-7e99-4b67-8bcc-12a96828809a",
             "Value": {
                 "id": "433eeed8-a8f7-408a-ba73-865c1faa0a98",
                 "resourcePath": "scripts\\scrAddToInv\\scrAddToInv.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "38a85ded-4918-442b-bccf-84381ceafa09",
+            "Value": {
+                "id": "99309b6a-92df-4a27-890f-cdb938893eb4",
+                "resourcePath": "scripts\\scrSavePos\\scrSavePos.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -716,6 +732,14 @@
                 "id": "f0c1e8d1-ebf3-439d-aa28-2ae7ed3204a1",
                 "resourcePath": "objects\\clsSolidAll\\clsSolidAll.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69536928-7bc4-467a-aaaf-96563bfff1d9",
+            "Value": {
+                "id": "da05bf0f-7e76-4379-a69a-ae24cb8e3753",
+                "resourcePath": "rooms\\rmCityOfAnarchyHallway\\rmCityOfAnarchyHallway.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1007,6 +1031,14 @@
             }
         },
         {
+            "Key": "a5ac649a-1bc8-4559-b4ed-8cea67ddb0b6",
+            "Value": {
+                "id": "a1d2c55a-7567-40f2-ad40-5ad133f840fb",
+                "resourcePath": "scripts\\scrLoadPos\\scrLoadPos.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a5cfa9bc-7b78-4a44-9f33-64d9603532cb",
             "Value": {
                 "id": "dee07152-8474-43db-97c5-a4450e2371c1",
@@ -1210,7 +1242,7 @@
             "Key": "bff94d1f-1424-4442-924a-fafc69e6d99c",
             "Value": {
                 "id": "2e7117dd-a254-48ae-827c-9f537595bfbd",
-                "resourcePath": "rooms\\rmTesting2\\rmTesting2.yy",
+                "resourcePath": "rooms\\rmCityOfAnarchy1\\rmCityOfAnarchy1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1391,6 +1423,14 @@
             }
         },
         {
+            "Key": "d8fb9836-9d9f-4cd0-9061-b6e0cd991246",
+            "Value": {
+                "id": "a1e27b7e-ed9b-406a-b369-bee6bd78ccb6",
+                "resourcePath": "rooms\\rmCityOfAnarchyAlley\\rmCityOfAnarchyAlley.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d9d91c0b-fe85-47d3-88b5-8a9f1d346bca",
             "Value": {
                 "id": "0a620b6f-bdbb-4808-b6f0-864990425b40",
@@ -1444,6 +1484,14 @@
                 "id": "c8bd5a92-daf9-4821-a3e7-c3550a7f9ded",
                 "resourcePath": "views\\df8381d2-4d0b-428c-b91b-c7cb47e67c36.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e196aaba-01cf-4140-87d9-45f1b8aad8d6",
+            "Value": {
+                "id": "ed9fb76e-d412-4255-a147-ce77cf6b93f8",
+                "resourcePath": "rooms\\rmCityOfAnarchyArena\\rmCityOfAnarchyArena.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1688,6 +1736,8 @@
         "1d61b3a5-8cb8-43b8-af64-9bcddbe125a9",
         "94b0113c-d46b-429c-82e8-0c2c7355cf41",
         "5aca0f2c-4cc4-4610-81c0-38f364b93b0a",
+        "38a85ded-4918-442b-bccf-84381ceafa09",
+        "a5ac649a-1bc8-4559-b4ed-8cea67ddb0b6",
         "35d4f811-3be7-47ec-8257-7786cf460496",
         "8728688e-b827-453c-bd9a-20abeacaa784",
         "62ba2fad-c9fd-4704-82cc-ae728090e367",
