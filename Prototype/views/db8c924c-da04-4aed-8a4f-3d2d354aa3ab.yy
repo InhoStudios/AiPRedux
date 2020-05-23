@@ -6,7 +6,8 @@
     "children": [
         "2cb06802-2c79-44b3-abbd-d3f07ea0a5dd",
         "c6815e87-225e-4802-ad4f-2ac354d40811",
-        "b81fcdef-2678-4a10-b5de-86114756eddd"
+        "b81fcdef-2678-4a10-b5de-86114756eddd",
+        "2922a780-ade1-492d-83a0-c4d3dbe718b5"
     ],
     "filterType": "GMScript",
     "folderName": "camera",

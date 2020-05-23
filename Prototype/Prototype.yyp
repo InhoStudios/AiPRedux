@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "2922a780-ade1-492d-83a0-c4d3dbe718b5",
+            "Value": {
+                "id": "9a8052f6-1018-4379-8a1d-8e37598fb2b7",
+                "resourcePath": "scripts\\scrCameraSetTarget\\scrCameraSetTarget.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "294e096c-3467-42a3-a6c6-1440ca08cc12",
             "Value": {
                 "id": "7875bfe8-e0aa-4eb9-8448-a95a62e62d89",
@@ -1705,6 +1713,7 @@
         "2cb06802-2c79-44b3-abbd-d3f07ea0a5dd",
         "c6815e87-225e-4802-ad4f-2ac354d40811",
         "b81fcdef-2678-4a10-b5de-86114756eddd",
+        "2922a780-ade1-492d-83a0-c4d3dbe718b5",
         "0f86731d-7fb6-46bb-b18d-7664a0faaf16",
         "1e7682ba-e414-4c27-a956-021eb67da29d",
         "c96bc376-cb12-49d7-939d-54ce42b65ad5",

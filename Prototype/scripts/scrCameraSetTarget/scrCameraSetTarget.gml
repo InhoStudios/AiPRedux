@@ -1,0 +1,1 @@
+objCamera.target = argument0;
