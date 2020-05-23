@@ -2,7 +2,7 @@
 inventoryKey = "inventory_save";
 
 // instantiate variables
-totalSlots = 3;
+totalSlots = 5;
 currentSlot = 0;
 slotTaken = -1;
 
@@ -27,6 +27,9 @@ inv =
      id    name  count
 slot [   ] [   ] [   ]
 slot [   ] [   ] [   ]
+.
+.
+.
 
 */
 	
