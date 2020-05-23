@@ -1,6 +1,0 @@
-THINGS TO ADD:
-seperate walk and run speeds.
-current movements are all running speeds.
-...etc
-
-

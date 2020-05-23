@@ -1,9 +1,11 @@
 //Inputs
 //--------------------------------------------------------------------------------------------
-keyRunR=ord("D")
-keyRunL=ord("A")
-keyJump=ord("W")
-keyDown=ord("S")
+keyRunR=ord("D");
+keyRunL=ord("A");
+keyJump=ord("W");
+keyDown=ord("S");
+
+keyAttack = mb_left;
 //--------------------------------------------------------------------------------------------
 RIGHT=0
 LEFT=1
@@ -87,6 +89,7 @@ RUNNING_ok=1            ////CHANGEABLE whether player is able to run
 JUMPING_ok=1            ////CHANGEABLE whether player is able to jump
 DOUBLEJUMP_ok=1         ////CHANGEABLE whether player is able to do a double jump
 CROUCH_ok=1            ////CHANGEABLE whether player is able to crouch
+ATTACKING_ok=1;		//CHANGEABLE whether player is able to attack
 
 //--------------------------------------------------------------------------------------------
 
@@ -104,3 +107,17 @@ doubleJumpTimes = 2;	//times player can double jump. not implimented yet.
 //max pixels player can slope walk
 stairsMax=3
 //--------------------------------------------------------------------------------------------
+
+//COMBAT ABILITIES
+attackState = playerAttackStates.IDEL;
+hitByAttack = ds_list_create();
+attackMomentum = 9;
+
+
+enum playerAttackStates
+{
+	IDEL,
+	ATTACK_DEFAULT,
+	ATTACK_DEFAULT_COMBO
+}
+
