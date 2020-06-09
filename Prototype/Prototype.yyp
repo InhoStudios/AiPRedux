@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "77f42320-29d3-4b84-b77e-7e6e852ee24f",
+            "Value": {
+                "id": "97406c46-f4ee-4935-8ff4-79f64adbd1c9",
+                "resourcePath": "sprites\\sprPlayerAttackDefault\\sprPlayerAttackDefault.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "78b8c8ad-064f-4635-a838-8bfae169a273",
             "Value": {
                 "id": "896f3553-280a-4e39-aaf3-b5702c783bd6",
@@ -1479,6 +1487,14 @@
             }
         },
         {
+            "Key": "d75c27d6-7d04-4422-bf1e-7bb42f206035",
+            "Value": {
+                "id": "a97ffebe-7e69-4633-87c7-5f7492e39cdd",
+                "resourcePath": "objects\\objHitBox\\objHitBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d7bdba0f-0177-4a43-9322-4fafe8a2e0b1",
             "Value": {
                 "id": "cc25e62e-2e8c-4ddb-8170-53f36a0bd540",
@@ -1703,6 +1719,14 @@
             }
         },
         {
+            "Key": "f42ac0bd-cb1f-4a6b-b5e0-ae04c6ecb30e",
+            "Value": {
+                "id": "ae77a340-1378-4c64-a0c8-0852148bddbc",
+                "resourcePath": "scripts\\scrCreateHitbox\\scrCreateHitbox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f7cfb8f8-9f9d-4168-aaf0-00e294462ac2",
             "Value": {
                 "id": "d5dc43c4-8fb7-4e3d-b09b-9c26e3b485df",
@@ -1807,6 +1831,7 @@
         "51575cf2-16e5-4a0e-b352-55901f7674b0",
         "0d523285-64f0-484a-9aaf-0644c188134c",
         "d0f9f9a9-3ab6-432e-9ec4-23e325755317",
+        "f42ac0bd-cb1f-4a6b-b5e0-ae04c6ecb30e",
         "ef240189-2e8e-406f-89b3-3731904b920d",
         "00c61215-f75c-4e9d-837a-23c494acad25",
         "4f46dcd4-c460-422c-bf98-0eb2519d46ce",
