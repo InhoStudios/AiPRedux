@@ -4,7 +4,6 @@
 
 if (!instance_exists(objHitBox)){
 	scrAttackMomentum();	//adds attack momentum
-	scrCreateHitbox(objPlayer.x,objPlayer.y,objPlayer,sprPlayerAttackDefault,1);
-	
+	scrCreateHitbox(objPlayer.x,objPlayer.y,self,sprPlayerAttackDefault,1);
 }
 
