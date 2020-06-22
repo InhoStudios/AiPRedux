@@ -9,7 +9,7 @@ if state=JUMPING or state=FALLING
         
     fric=fricAir
          
-    image_speed=0.5
+    image_speed=0.3//in air speed
     if doubleJump==0
     {
         if crouching=1

@@ -101,7 +101,7 @@ if state=ON_GROUND
     else
     {
         //running
-        image_speed=0.4
+        image_speed=0.3 //RUNNING IMAGE SPEED
         if crouching=1    
         {
             if face=RIGHT
