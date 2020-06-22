@@ -3,7 +3,7 @@ maxZoom = 3;
 
 
 idealWidth = 0;
-idealHeight = 270;
+idealHeight = 216;
 
 //maxzoom
 maxZoom = floor(display_get_width()/idealHeight);
